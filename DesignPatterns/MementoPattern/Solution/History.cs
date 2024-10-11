@@ -2,6 +2,9 @@
 
 namespace MementoPattern.Solution
 {
+    /// <summary>
+    /// Caretaker
+    /// </summary>
     public class History
     {
         private Stack<EditorState> _history = new();

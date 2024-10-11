@@ -2,6 +2,9 @@
 
 namespace MementoPattern.Solution
 {
+    /// <summary>
+    /// Orginator
+    /// </summary>
     public class Editor
     {
         private string _content = string.Empty;
