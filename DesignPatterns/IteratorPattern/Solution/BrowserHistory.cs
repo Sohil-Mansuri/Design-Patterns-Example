@@ -1,6 +1,11 @@
 ﻿
 namespace IteratorPattern.Solution
 {
+    /// <summary>
+    /// Now if you want to update storing Data structure from List to array then you just needs to
+    /// create one new ArrayIterator, also by using this solutin you can traverse forward and backward
+    /// with minimal changes in ListIterator
+    /// </summary>
     internal class BrowserHistory
     {
         private List<string> _listOfUrls = [];
@@ -26,20 +31,13 @@ namespace IteratorPattern.Solution
         {
             private int currenctIndex;
 
-            public string CurrectValue()
-            {
-                return browserHistory._listOfUrls[currenctIndex];
-            }
+            public string CurrectValue() => browserHistory._listOfUrls[currenctIndex];
 
-            public bool HasNext()
-            {
-                return currenctIndex < browserHistory._listOfUrls.Count;
-            }
 
-            public void Next()
-            {
-                currenctIndex++;
-            }
+
+            public bool HasNext() => currenctIndex < browserHistory._listOfUrls.Count;
+
+            public void Next() => currenctIndex++;
         }
     }
 }

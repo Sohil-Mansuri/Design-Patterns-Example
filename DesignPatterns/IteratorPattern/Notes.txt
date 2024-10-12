@@ -1,0 +1,8 @@
+﻿
+When to use Iterator pattern : 
+
+When you need to traverse a collection of objects without exposing the collection's underlying representation.
+
+When you want to provide multiple traversal strategies (e.g., forward, backward).
+
+When different collections need to provide a uniform traversal interface.

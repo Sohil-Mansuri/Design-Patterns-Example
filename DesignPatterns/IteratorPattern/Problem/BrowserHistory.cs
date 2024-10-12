@@ -9,7 +9,7 @@ namespace IteratorPattern.Problem
     /// </summary>
     internal class BrowserHistory
     {
-        private List<string> _urlHistory = new();
+        private List<string> _urlHistory = [];
 
         public void Push(string url)
         {
