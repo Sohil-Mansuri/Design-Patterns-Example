@@ -1,0 +1,19 @@
+﻿
+Problem:
+
+The current implementation follows the OCP (Open-Closed Principle). However, if we add a new tool tomorrow, 
+we will need to update all the operations to add a new check, which violates the principle.
+
+Solution:
+
+This issue can be solved using Polymorphism. 
+
+In the solution section, we have implemented the State Pattern. The solution uses the State, Context, and Concrete classes to manage different states effectively.
+
+
+Note:
+
+- Use the State Pattern when there is a need for extensibility and your code contains many `if-else` conditions.
+- In the Over_Use_Of_State_Pattern section, you’ll notice that the State Pattern is not required for a simple case like a stopwatch. 
+- While the pattern will work fine, it will unnecessarily complicate the code.
+
