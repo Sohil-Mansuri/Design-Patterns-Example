@@ -1,0 +1,15 @@
+﻿
+
+Do you see problem here
+
+as it it is Compulsory audit, so because of this it is becoming duplicate 
+
+also what if deveoper is forget to do Audit, then its an big miss during development 
+
+there are multiple wasy to fix this issue or add such functionality 
+
+i mean we can define steps to do operatons and can add common code in abstract class 
+
+in the first solutin I have solved using Strategy pattern
+
+in second solutin i have used Template method pattern 
