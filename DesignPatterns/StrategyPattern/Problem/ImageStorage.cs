@@ -5,7 +5,7 @@ namespace StrategyPattern.Problem
     {
         /// <summary>
         /// This is not correct way, its not following SRP, its saving, compressing and Filtering
-        /// Also its now follwing OCP, tomorrow if we get new Image type then again you have to update this class 
+        /// Also its no follwing OCP, tomorrow if we get new Image type then again you have to update this class 
         /// Solution is Use strategy pattern if you have multiple alogrithems
         /// Check solution section for more details 
         /// </summary>
