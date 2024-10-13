@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern", "MementoPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "StatePattern\StatePattern.csproj", "{4D03D40A-C9C7-464A-9C6F-2763F5631734}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{AEDC83A7-250D-4D51-8018-FC147F4FD19C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{AEDC83A7-250D-4D51-8018-FC147F4FD19C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{F0B3B68B-974B-4561-99B2-ED51C9F0B23F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{F0B3B68B-974B-4561-99B2-ED51C9F0B23F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{DC7F546D-70A0-42C1-A0CD-1BF05CB8FF72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{DC7F546D-70A0-42C1-A0CD-1BF05CB8FF72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{A69A46D4-DAE2-4F91-802A-4A45C7161F84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DC7F546D-70A0-42C1-A0CD-1BF05CB8FF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC7F546D-70A0-42C1-A0CD-1BF05CB8FF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC7F546D-70A0-42C1-A0CD-1BF05CB8FF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A69A46D4-DAE2-4F91-802A-4A45C7161F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69A46D4-DAE2-4F91-802A-4A45C7161F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69A46D4-DAE2-4F91-802A-4A45C7161F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69A46D4-DAE2-4F91-802A-4A45C7161F84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,14 @@
+﻿
+Example 1 : 
+
+when Button is click what operation it should do, like Click a photo, Save data, Delete data ext. 
+
+this can be implmented using Command pattern
+
+Example 2 : Macro Recording 
+
+We can pass list of command and execue them in order.
+
+Example 3 : Undo/Redo operation
+
+kind of Reset
