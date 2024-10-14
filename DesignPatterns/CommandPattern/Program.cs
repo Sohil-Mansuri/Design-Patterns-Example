@@ -13,7 +13,7 @@ namespace CommandPattern
             var button = new Example1.Button(addCustomerCommand);
             button.Click();
 
-            Console.WriteLine("You can see all these objects are communicating with each other to do comples task");
+            Console.WriteLine("You can see all these objects are communicating with each other to do complex task");
 
             Console.WriteLine("Output from Example 2 : Marcro Recording");
 
@@ -48,7 +48,6 @@ namespace CommandPattern
             Console.WriteLine("after second undo");
             Console.WriteLine(htmldocument.Size);
             Console.WriteLine(htmldocument.Content);
-
 
             Console.ReadKey();
         }
