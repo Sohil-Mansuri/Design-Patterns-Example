@@ -1,0 +1,23 @@
+﻿
+
+we want to implement one dialog box 
+
+it has three controlls i) Artical Listbox ii) Text box to show selected Artical iii) Save button to store in DB
+
+Requirements: 
+
+when Artical is selected it should be visible in Text box 
+
+if Text box is not empty then only Save button should be active else it should be disabled 
+
+when we click on Save button then selected artical should be save in DB
+
+if somebody clear textbox then save button should get disabled 
+
+
+so using mediator pattern we can achieve this 
+
+i have also used Observer pattern, because using mediator pattern 
+if our logic become more complex then we need to add more if and else statements
+
+please check both the approaches 
