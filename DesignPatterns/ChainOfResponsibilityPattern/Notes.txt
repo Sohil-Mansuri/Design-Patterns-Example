@@ -1,0 +1,30 @@
+﻿
+Lets implement Webserver pipeline
+
+in webserver pipeline all operation happens in order 
+
+Like
+
+1. Authetication
+
+2. Logging
+
+3. Token generated
+
+4. Request mapping 
+
+
+if any on of the fail then it just stop from there and return error to client 
+
+Lets implement ... check in Problem section 
+
+as you can see there are multiple issue with that implementation
+
+one is its not follwing OCP, if there is any new Middleware added then again we have to update existing code 
+
+second is in this implementation order is fixed but in future we have to update this order then again we have to make changes 
+here 
+
+above issues can be solved using Chain of Responsibilities Design pattern 
+
+check that implementation in Solution section

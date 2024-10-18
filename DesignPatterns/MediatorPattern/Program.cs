@@ -16,5 +16,6 @@ namespace MediatorPattern
 
             Console.ReadKey();
         }
+
     }
 }
