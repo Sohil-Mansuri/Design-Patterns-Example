@@ -1,0 +1,19 @@
+﻿
+
+Now if you see in the probelm selection we have added one operation in html document as Highlight 
+
+but now if you want to add one more operation like Bold the text then
+
+you need to do below changes 
+
+1. Add new method in HtmlNode interface 
+2. implement in all the html nodes 
+3. Update in Htmldocument 
+
+so this is not the correct way as its not follwing OCP 
+
+lets solve the issue with visitor patter
+
+use only then object strucutre is stable here in this case we have fixed objects .. Heading and Anchor 
+
+if object structure is unstable when it will again end up in updaing all the classes 

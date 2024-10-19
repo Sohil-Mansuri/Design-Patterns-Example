@@ -22,7 +22,8 @@ namespace ChainOfResponsibilityPattern
 
             Console.WriteLine("Output from Solution selection");
 
-            //we want to setup this chain Authentication -> Logger -> Compression 
+            //we want to setup this chain Authentication -> Logger -> Compression
+            
             Solution.CompressionHandler compressionHandler = new(null);
             Solution.LoggerHandler loggerHandler = new(compressionHandler);
             Solution.AutheticationHandler autheticationHandler = new(loggerHandler);
