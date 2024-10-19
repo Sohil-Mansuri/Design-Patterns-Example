@@ -16,11 +16,11 @@ namespace VisitorDesignPattern
 
             Console.WriteLine("Output from Solution section");
 
-            var newHtmlDocument = new Solution.HtmlDocument(new Solution.PlainTextOperation());
+            var newHtmlDocument = new Solution.HtmlDocument();
             newHtmlDocument.Nodes.Add(new Solution.HeadingNode());
             newHtmlDocument.Nodes.Add(new Solution.AncharNode());
 
-            newHtmlDocument.Apply();
+            newHtmlDocument.Apply(new Solution.PlainTextOperation());
 
             Console.ReadKey();
         }
