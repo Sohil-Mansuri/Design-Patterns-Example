@@ -24,7 +24,7 @@ namespace MementoPattern.Solution
 
         public void AddContent(string content)
         {
-            if (_content is not null)
+            if (content is not null)
             {
                 _content = content;
             }
