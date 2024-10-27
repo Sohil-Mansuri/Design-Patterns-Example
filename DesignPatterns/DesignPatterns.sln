@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{6BBBEFAE-EFAE-423B-9C58-084B475961D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern", "Behavioural design pattern\MementoPattern\MementoPattern.csproj", "{6BBBEFAE-EFAE-423B-9C58-084B475961D4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "StatePattern\StatePattern.csproj", "{4D03D40A-C9C7-464A-9C6F-2763F5631734}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "Behavioural design pattern\StatePattern\StatePattern.csproj", "{4D03D40A-C9C7-464A-9C6F-2763F5631734}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{AEDC83A7-250D-4D51-8018-FC147F4FD19C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "Behavioural design pattern\IteratorPattern\IteratorPattern.csproj", "{AEDC83A7-250D-4D51-8018-FC147F4FD19C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{F0B3B68B-974B-4561-99B2-ED51C9F0B23F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "Behavioural design pattern\StrategyPattern\StrategyPattern.csproj", "{F0B3B68B-974B-4561-99B2-ED51C9F0B23F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{DC7F546D-70A0-42C1-A0CD-1BF05CB8FF72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodPattern", "Behavioural design pattern\TemplateMethodPattern\TemplateMethodPattern.csproj", "{DC7F546D-70A0-42C1-A0CD-1BF05CB8FF72}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{A69A46D4-DAE2-4F91-802A-4A45C7161F84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "Behavioural design pattern\CommandPattern\CommandPattern.csproj", "{A69A46D4-DAE2-4F91-802A-4A45C7161F84}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{60FB41B2-D205-450E-A1A2-B8D2E1D4C18C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "Behavioural design pattern\ObserverPattern\ObserverPattern.csproj", "{60FB41B2-D205-450E-A1A2-B8D2E1D4C18C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{A2F4E163-F7FB-4269-8745-6782D411160F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern", "Behavioural design pattern\MediatorPattern\MediatorPattern.csproj", "{A2F4E163-F7FB-4269-8745-6782D411160F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{EDC07E4E-E7F5-4347-898D-E826C1A9ED9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityPattern", "Behavioural design pattern\ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{EDC07E4E-E7F5-4347-898D-E826C1A9ED9B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorDesignPattern", "VisitorDesignPattern\VisitorDesignPattern.csproj", "{ED4620B8-D87F-4590-8C32-17D64DDD713B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorDesignPattern", "Behavioural design pattern\VisitorDesignPattern\VisitorDesignPattern.csproj", "{ED4620B8-D87F-4590-8C32-17D64DDD713B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral design patterns", "Behavioral design patterns", "{F3770A7C-B1F6-4FA2-9489-4EBCEF40F591}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "Structural design pattens\CompositePattern\CompositePattern.csproj", "{007C5AA4-5E1C-43FE-8477-87862DA9F094}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "Structural design pattens\AdapterPattern\AdapterPattern.csproj", "{D9B69336-46E0-43A0-8AED-754B1A44BD41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "Structural design pattens\DecoratorPattern\DecoratorPattern.csproj", "{9E29C97D-66B1-4714-9116-788D7A9A5857}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,10 @@ Global
 		{D9B69336-46E0-43A0-8AED-754B1A44BD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9B69336-46E0-43A0-8AED-754B1A44BD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9B69336-46E0-43A0-8AED-754B1A44BD41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E29C97D-66B1-4714-9116-788D7A9A5857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E29C97D-66B1-4714-9116-788D7A9A5857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E29C97D-66B1-4714-9116-788D7A9A5857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E29C97D-66B1-4714-9116-788D7A9A5857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{ED4620B8-D87F-4590-8C32-17D64DDD713B} = {F3770A7C-B1F6-4FA2-9489-4EBCEF40F591}
 		{007C5AA4-5E1C-43FE-8477-87862DA9F094} = {6DD21C98-DD44-4EE7-A08E-D14D79D0270B}
 		{D9B69336-46E0-43A0-8AED-754B1A44BD41} = {6DD21C98-DD44-4EE7-A08E-D14D79D0270B}
+		{9E29C97D-66B1-4714-9116-788D7A9A5857} = {6DD21C98-DD44-4EE7-A08E-D14D79D0270B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05422D56-D490-445D-B934-35D596F29BDC}
